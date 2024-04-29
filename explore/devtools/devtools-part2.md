@@ -1,0 +1,2 @@
+1. The bug is that both numbers are read in as strings instead of integers. Thus, when they are added together, the program simply appends num2 to num1 as a string
+2. The fix is to convert num1 and num2 to integers before storing them.
